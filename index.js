@@ -28,8 +28,3 @@ class Circle {
         this.radius = Math.sqrt(newArea / Math.PI);
     };
 }
-
-const myCircle = new Circle(2);
-console.log(myCircle.area);
-myCircle.area = 5 * 5 * Math.PI;
-console.log(myCircle.radius);
